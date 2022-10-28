@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image:url(contact.jpg);
+    background-position:center;
+    background-size: cover;
+}
+nav{
+	display:flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items:center;
+}
+nav img{
+	width:135px;
+}
+.container{
+	text-align:center;
+}
+.container h1{
+	font-size:30px;
+	font-weight:700;
+	color:white;
+}
+.container p{
+	font-size:17px;
+	padding:0 140px;
+	font-weight:400;
+	color:white;
+}
+.nav-links{
+	flex:1;
+	text-align:right;
+}
+.nav-links ul li{
+	list-style:none;
+	display:inline-block;
+	padding:8px 20px;
+	position:relative;
+}
+.nav-links ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+.nav-links ul li::after{
+	content:'';
+	width:0%;
+	height:2px;
+	background:orange;
+	display:block;
+	margin:auto;
+	transition:0.5s;
+}
+.nav-links ul li:hover::after{
+	width:100%;
+}
+.contact-box{
+	background:white;
+	margin:50px 350px;
+	margin-top:-550px;
+	margin-bottom:30px;
+    display:flex;
+}
+.contact-left{
+	flex-basis:70%;
+	padding-left:130px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.message{
+	color:black;
+}
+.input-row{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+	color:white;
+}
+input{
+	width:100%;
+	border:none;
+	border-bottom:1px solid black;
+	outline:none;
+	padding-bottom:5px;
+	background:white;
+	color:black;
+}
+textarea{
+	width:100%;
+	border:1px solid black;
+	outline:none;
+	padding:10px;
+	background:white;
+	color:black;
+}
+button{
+	background:orange;
+	width:100px;
+	border:none;
+	outline:none;
+	color:white;
+	height:35px;
+	border-radius:30px;
+	margin-top:20px;
+	color:white;
+}
+.footer{
+	margin-top:70px;
+	background:black;
+	width:100%;
+	text-align:center;
+	padding:10px 0;
+}
+.footer h4{
+	color:white;
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:600;
+}
+.footer p{
+	color:white;
+}
+.icons .fa{
+	
+	color:orange;
+	margin: 0 13px;
+	cursor:pointer;
+	padding:18px 0;
+}
+.fa-heart-o{
+	color:orange;
+}
